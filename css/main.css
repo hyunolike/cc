@@ -1,0 +1,151 @@
+/* COMMON */
+.body__container {
+    font-family: 'Jua', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#2c3e50;
+    background: #ecf0f1;
+
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* SECTION & INNER */
+.section {
+    position: relative;
+}
+.section .inner {
+    max-width: 980px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* FLOAT CLEARFIX */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.float--left {
+    float: left;
+}
+.float--right {
+    float: right;
+}
+
+/* HEADER */
+header {
+    border-bottom: 1px solid rgba(0,0,0,.75);
+    box-shadow: 0 0 5px rgba(0,0,0,.75);
+    background: #2c3e50;
+    color:#ecf0f1;
+}
+header .inner {
+    height: 78px;
+}
+header .menu-group {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+header .logo {
+    margin-left: 10px;
+    font-size: 70px;
+}
+header .logo a {
+    color:#ecf0f1;
+}
+header .logo a:hover {
+    color:#f1c40f;
+}
+header .sign-group {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+header .Btn-group {
+    display: flex;
+    order: 1;
+}
+header .Btn-group .sign-in {
+    margin-right: 14px;
+}
+header .sub-menu {
+    display: flex;
+    margin-right: 14px;
+}
+header .sub-menu li a {
+    padding: 8px;
+    display: block;
+    font-size: 20px;
+    color: #ecf0f1;
+}
+header .sub-menu li a:hover {
+    color: #f1c40f;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+@media (max-width: 1024px) {
+    header.section .inner {
+        max-width: none;
+        height: auto;
+        padding: 0 20px;
+    }
+    header .menu-group, 
+    header .sign-group{
+        float: none;
+    }
+    header .logo {
+        padding: 12px 0;
+    } 
+    header .menu-group {
+        display: block;
+    }  
+    header .sign-group {
+        display: block;
+        padding: 10px 0 20px;
+    }
+    header .Btn-group {
+        display: block;
+    } 
+    header .Btn-group .sign-in {
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+    header .sub-menu {
+        margin-top: 12px;
+        margin-right: 0;
+        justify-content: center;
+    }
+    header .toggle {
+        display: none;
+    }
+    header .toggle.on {
+        display: block;
+    }
+    #toggle-btn {
+        background:url("../img/bars-solid.svg");
+        width: 50px;
+        height: 60px;
+        position: absolute;
+        top: 16px;
+        right: 20px;
+        cursor: pointer;
+        text-indent: -9999px;
+    }
+}
