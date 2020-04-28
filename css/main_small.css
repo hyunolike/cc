@@ -1,0 +1,53 @@
+/* COMMON */
+.summary__title {
+    
+}
+.sumary__description {
+
+}
+
+/* HEADER */
+header .logo {
+    padding: 5px 0;
+} 
+header #toggle-btn {
+    background:url("../img/bars-solid.svg");
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 60px;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+
+
+/* FEATURE */
+.section--feature .summary__title{
+    font-size: 30px;
+}
+.section--feature .summary__description {
+    font-size: 13px;
+}
+.section--feature .tiles li {
+    padding: 10px 10px;
+}
+.section--feature .tiles li img {
+    max-width: 100%;
+    padding: 5px 10% 5px;
+    box-sizing: border-box;
+}
+.section--feature .tiles li h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* SELECT MENU */
+.section--menu .menu li a {
+    
+}
+.section--menu .menu li img {
+    padding: 10px 10% 10px;
+}

@@ -1,0 +1,47 @@
+header.section .inner {
+    max-width: none;
+    height: auto;
+    padding: 0 20px;
+}
+header .menu-group, 
+header .sign-group{
+    float: none;
+}
+header .logo {
+    padding: 12px 0;
+} 
+header .menu-group {
+    display: block;
+}  
+header .sign-group {
+    display: block;
+    padding: 10px 0 20px;
+}
+header .Btn-group {
+    display: block;
+} 
+header .Btn-group .sign-in {
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+header .sub-menu {
+    margin-top: 12px;
+    margin-right: 0;
+    justify-content: center;
+}
+header .toggle {
+    display: none;
+}
+header .toggle.on {
+    display: block;
+}
+#toggle-btn {
+    background:url("../img/bars-solid.svg");
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    cursor: pointer;
+    text-indent: -9999px;
+}
