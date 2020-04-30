@@ -2,7 +2,7 @@
     padding: 55px 20px 30px;
 }
 .section--visual .summary__title {
-    font-size: 50px;
+    font-size: 38px;
 }
 .section--visual .summary__description li {
     margin-top: 20px;
@@ -13,7 +13,7 @@
     border:none;
 }
 .section--feature .summary__title {
-    font-size: 20px;
+    font-size: 17px;
 }
 .section--feature .summary__description {
     margin-top: 20px;
@@ -31,6 +31,9 @@
 }
 .section--feature .tiles .inner {
     padding: 10px 20px;
+}
+.section--feature .tiles li {
+    padding: 0;
 }
 .section--feature .tiles li h1 {
     font-size: 30px;
