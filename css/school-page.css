@@ -1,0 +1,59 @@
+.section--visual .inner {
+    padding: 55px 20px 30px;
+}
+.section--visual .summary__title {
+    font-size: 50px;
+}
+.section--visual .summary__description li {
+    margin-top: 20px;
+}
+
+
+.section--feature .inner {
+    border:none;
+}
+.section--feature .summary__title {
+    font-size: 20px;
+}
+.section--feature .summary__description {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.section--feature .inner-border1 {
+    border-top: 4px solid black;
+    padding: 20px 20px 0;
+}
+.section--feature .inner-border2 {
+    border-bottom: 4px solid black;
+}
+.section--feature .tiles {
+    border-bottom: none;
+}
+.section--feature .tiles .inner {
+    padding: 10px 20px;
+}
+.section--feature .tiles li h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+#wifi {
+    background-image: url("../img/wifi-blue.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 3px;
+    right: 100px;
+}
+#socket {
+    background:url("../img/socket-blue.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+
