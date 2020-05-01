@@ -33,10 +33,10 @@
     padding: 10px 20px;
 }   
 .section--feature .tiles li {
-    padding:20px 10px;
+    padding:20px 0;
 }
 .section--feature .tiles li h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 800;
 }
 #wifi {
