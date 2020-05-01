@@ -33,11 +33,11 @@
     padding: 10px 20px;
 }   
 .section--feature .tiles li {
-    padding:20px 0;
+    padding:10px 0;
 }
 .section--feature .tiles li h1 {
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 25px;
+    font-weight: lighter;
 }
 #wifi {
     background-image: url("../img/wifi-blue.svg");
