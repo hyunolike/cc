@@ -16,6 +16,7 @@
 
 __총 7 page__
 
+--------------
 
-📌__모바일 환경__ 에서 이용해주세요.
-📌 최종 마지막에서 <span style="background:yellow">코드최적화 진행 </span> 예정 입니다.
+📌  __모바일 환경__ 에서 이용해주세요.
+📌  최종 마지막에서 <span style="background:yellow">코드최적화 진행 </span> 예정 입니다.
