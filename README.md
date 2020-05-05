@@ -1,5 +1,4 @@
 
-!(markdown_logo)(https://raw.github.com/dcurtis/markdown-mark/master/png/208x128.png)
 
 ## 모바일 프로그래밍 캡스톤 디자인 제작
 - 팀원 총 3명/ 팀장: 장현호
@@ -18,9 +17,12 @@
 
 __총 7 page__
 
+![markdown_logo](https://raw.github.com/dcurtis/markdown-mark/master/png/208x128.png)
+
+![Relative date](https://img.shields.io/date/1588700035)
+
 --------------
 
 📌  __모바일 환경__ 에서 이용해주세요.
 
 📌  최종 마지막에서 `코드최적화` 진행 예정 입니다.
-![Relative date](https://img.shields.io/date/1588700035)
